@@ -1,0 +1,28 @@
+{
+    "name": "stat-collector",
+    "version": "0.0.1",
+    "description": "Request and response stat collection middleware for Express.js and Circonus monitoring",
+    "keywords": [
+        "stats",
+        "monitoring",
+        "circonus",
+        "http"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/TauZero/node-stat-collector"
+    },
+    "bugs": {
+        "url": "http://github.com/TauZero/node-stat-collector/issues"
+    },
+    "author": "Brian Bickerton <bbickerton@omniti.com>",
+    "main": "./lib/StatCollector",
+    "directories": {
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "redis": "0.8.2",
+        "amqp": "0.1.3",
+        "async": "0.1.22"
+    }
+}
