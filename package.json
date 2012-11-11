@@ -1,6 +1,6 @@
 {
     "name": "stat-collector",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Request and response stat collection middleware for Express.js and Circonus monitoring",
     "keywords": [
         "stats",
