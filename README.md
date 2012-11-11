@@ -1,6 +1,6 @@
 # node-stat-collector
 
-    Basic stat collection for Node.js web applications. Comes with Express.js middleware support.
+Basic stat collection for Node.js web applications. Comes with Express.js middleware support.
 
 ## Installation
 
@@ -8,10 +8,10 @@
 
 ## Available Tracking ##
 
-    * Query Counts - saved to Redis
-    * Response Times - pushed to Circonus
+* Query Counts - saved to Redis
+* Response Times - pushed to Circonus
 
-    Only configured components will be enabled, allowing one to only track what is necessary.
+Only configured components will be enabled, allowing one to only track what is necessary.
 
 ## Examples
 
