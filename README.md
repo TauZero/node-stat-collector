@@ -40,7 +40,7 @@ Only configured components will be enabled, allowing one to only track what is n
             port: 1234,
             path: '/'
         },
-        pushInterval: 30000,  // Interval (ms) in which to push to Circonus (default 30000)
+        pushInterval: 500,  // Interval (ms) in which to push to Circonus (default 500)
         debug: false // Debug loging for this module (default false)
     };
 
